@@ -21,4 +21,9 @@ public class Persona {
     public void saludar() {
         System.out.println("Hola, soy " + nombre);
     }
+    
+    public void cumplirAnios() {
+        edad++;
+        System.out.println("¡Feliz cumpleaños! Ahora tengo " + edad + " años.");
+    }
 }
