@@ -10,4 +10,12 @@ public class Empleado extends Persona {
         this.cargo = cargo;
         this.salario = salario;
     }
+    
+    public String getCargo() {
+        return cargo;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
 }
