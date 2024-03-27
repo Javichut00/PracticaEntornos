@@ -22,4 +22,9 @@ public class Empleado extends Persona {
     public void trabajar() {
         System.out.println("Soy " + getCargo() + " y estoy trabajando.");
     }
+    
+    public void recibirAumento(double aumento) {
+        salario += aumento;
+        System.out.println("¡He recibido un aumento! Mi nuevo salario es: " + salario + "€");
+    }
 }
