@@ -17,4 +17,8 @@ public class Persona {
     public int getEdad() {
         return edad;
     }
+    
+    public void saludar() {
+        System.out.println("Hola, soy " + nombre);
+    }
 }
