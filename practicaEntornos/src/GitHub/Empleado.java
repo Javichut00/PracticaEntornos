@@ -18,4 +18,8 @@ public class Empleado extends Persona {
     public double getSalario() {
         return salario;
     }
+    
+    public void trabajar() {
+        System.out.println("Soy " + getCargo() + " y estoy trabajando.");
+    }
 }
